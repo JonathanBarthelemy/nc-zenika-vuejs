@@ -1,0 +1,184 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #A2DED0;
+  color: white;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+#header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+
+#header div, #header a {
+  text-align: center;
+}
+
+#header .basket {
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.panier-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.panier-element {
+  background: white;
+  border-radius: 5px;
+  min-width: 200px;
+  color: #BDC3C7;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.box-wrapper {
+  margin-top: 60px;
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box-wrapper .box {
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.box-wrapper .box:last-child {
+  margin-right: 0;
+}
+
+.box {
+  position: relative;
+  display: flex;
+  min-height: 200px;
+  width: 250px;
+  flex-direction: column;
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 5px;
+  min-height: 200px;
+  background: white;
+  color: #BDC3C7;
+}
+
+.box-bg-img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.box-banane {
+  background-image: url("../img/banane.jpeg");
+  background-size: 200px 200px;
+}
+
+.box-pomme {
+  background-image: url("../img/pomme.jpg");
+  background-size: 200px 200px;
+}
+
+.box-poire {
+  background-image: url("../img/poire.jpeg");
+  background-size: 200px 200px;
+}
+
+.box-tomates {
+  background-image: url("../img/tomates.jpeg");
+  background-size: 200px 200px;
+}
+
+.box-ananas {
+  background-image: url("../img/ananas.jpeg");
+  background-size: 200px 200px;
+}
+
+.box-cerise {
+  background-image: url("../img/cerise.jpg");
+  background-size: 200px 200px;
+}
+
+.box-fraise {
+  background-image: url("../img/fraise.jpg");
+  background-size: 200px 200px;
+}
+
+.box-mangue {
+  background-image: url("../img/mangue.jpg");
+  background-size: 200px 200px;
+}
+
+.box-peche {
+  background-image: url("../img/peche.jpg");
+  background-size: 200px 200px;
+}
+
+.box-coco {
+  background-image: url("../img/coco.jpg");
+  background-size: 200px 200px;
+}
+
+.box img { justify-content: center; }
+
+.box-label { margin-top: 10px; }
+
+.box-title {
+  margin-top: 20px;
+  font-size: 24px;
+}
+.box-title:hover {
+  color: #A2DED0;
+  cursor: pointer;
+}
+
+.button-more {
+  height: 30px;
+  padding: 5px;
+  background: #A2DED0;
+  color: white;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.button-buy {
+  padding-top: 3px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-right: 5px;
+  color: white;
+  background: #F2784B;
+  cursor: pointer;
+}
+
+.button-buy:last-child {
+  margin-right: 0;
+}
+
+.button-action {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.marged {
+  margin-right: 5px;
+}
